@@ -3,7 +3,7 @@
 Plugin Name:  Twitter Feed
 Description: This plugin uses twitter api to get recent feeds on Twitter website and display on the wordpress page. 
 Author: Yeeun You
-Author URI: http://www.yeeunyou.com
+Author URI: http://www.emilyyou.com
 Version: 0.1
 */
 
@@ -17,10 +17,10 @@ require_once("twitteroauth/twitteroauth/twitteroauth/twitteroauth.php");
 class TwitterPlugin{
 	//authentication information
 	public $twitteruser = 'twitter';
-	public $consumerKey = "2PL5FamUUJIInW7hvbnGz0WP5";
-	public $consumerSecret = "s28HnQmpn2ssGScM6YRnjdxffGdK6eeWyBGjiGL3aWTVjCzNuW";
-	public $accesstoken = "719273840350752768-DasZ1bEfuic3YFg2HFeBGXnSkXYB8Qi";
-	public $accesstokenSecret = "oA4NNeKYn3nHVUZKbO2Cp2Az7J6usfj0mLjRnwbJDlmRK";
+	public $consumerKey = "consumerKey";
+	public $consumerSecret = "consumerSecret";
+	public $accesstoken = "accessToken";
+	public $accesstokenSecret = "accessTokenSecret";
 
 	public function __construct(){
 		//will be used to display feeds 
